@@ -1,0 +1,64 @@
+/*
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+*/
+
+body {
+	background: #111010e1;
+}
+
+p {
+	color: grey;
+	font-size: 0.85em;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+}
+
+.postcard-header h1 {
+	width: 80%;
+	margin: 2px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0px;
+}
+
+.body-left,
+.body-right {
+	padding: 1em;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: #529bd6e7;
+	padding: 1px;
+}
